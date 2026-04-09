@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;
 
 /**
@@ -7,11 +8,9 @@ using System;
 [Serializable]
 public class Environment2D
 {
+    [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+
     public string Id;
 
     public string Name;
-
-    public int MaxLength;
-
-    public int MaxHeight;
 }

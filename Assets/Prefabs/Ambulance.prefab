@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4229375004579848260}
   - component: {fileID: -5215117291913450597}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Ambulance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3749740228694047907, guid: 0758bb56c4c59ba49b9fd7867f6e77a1, type: 3}
+  m_Sprite: {fileID: 6053844527251203986, guid: b6d4ba6c70df45449a6e1bf1065f7439, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2.16}
+    oldSize: {x: 1.04, y: 2.09}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
